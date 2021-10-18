@@ -1,8 +1,8 @@
 # Group_P4_Build_It
 Group project 4: Build It for CMSC414, Group members: Basem A, Prad B, and Mohammad Subhan
-This project will be a team project. Project 4 is in two parts: (a) Build-it and 
-(b) Break-it. This document contains details of part(a) of the project4, 
-where students in teams of up to 3 students will collaborate to write a 
+
+# Project ask
+Students in teams of up to 3 students will collaborate to write a 
 protocol for communication among atm and a bank . There will be two 
 programs. One program, called atm , will allow bank customers to 
 withdraw and deposit money from their account. The other program, 
