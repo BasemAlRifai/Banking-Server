@@ -9,9 +9,10 @@ withdraw and deposit money from their account. The other program,
 called bank , will run as a server that keeps track of customer balances
 
 # Project description
-![protocol](https://user-images.githubusercontent.com/32045565/137764445-981533ef-62d9-47b0-ac77-aaeedc182861.png)
-
 ## Overview
+The program will follow the original protocol drafted:
+![protocol](https://user-images.githubusercontent.com/32045565/137768377-11a40f8e-3a07-4ab2-8d50-a148e8b591c7.png)
+
 Everything starts when the Bank server is created. To start the Bank server, you can simply call
 it with “./bank” alone or you can specify the port and auth file to be used, both of which are error
 checked using regex. The Bank writes a file called bank.auth, fills it with a salted SHA256 hash
