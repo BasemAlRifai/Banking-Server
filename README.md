@@ -73,26 +73,21 @@ attacker would not be able to access an account and change an amount this way, o
 decrypt the message.
 
 ## Contributions
-Basem Al-Rifai
+### Basem Al-Rifai
 - Created the overall protocol between the ATM and Bank.
 - Wrote bank.c and bank-main.c to accept secure clients using salted hash bank.auth files.
 - Implemented regex for Bank as well as using argz.h to ensure that arguments passed to
 both ATM and Bank are POSIX compliant.
 - Worked on encryption and decryption of messages between ATM and Bank using
 OpenSSL.
-Pradyumn Bangera
+
+### Pradyumn Bangera
 - Co-Wrote atm.c to only accept valid commands from users using regex.
 - Verified the signature of bank.auth using OpenSSL.
 - Worked on encryption and decryption of messages between ATM and Bank using
-OpenSSL.
-BUILDIT
-4
-CMSC414: Network And Software Security (0101)
-Build-It Documentation, Team F00 Fighters
-11/25/2020
-Basem Al-Rifai, Pradyumn Bangera, Mohammad Subhan
 - Parsed the bank.auth file to be used as a key for encrypting the message sent to the bank.
-Mohammad Subhan
+
+### Mohammad Subhan
 - Co-Wrote atm.c to only accept valid commands from users using regex.
 - Worked on documentation for the project, listing the attacks and countermeasures we
 used for our protocol.
